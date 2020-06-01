@@ -1,0 +1,358 @@
+// let user = {
+// 	a : 0,
+// 	b : 0,
+
+
+// 	add:function(){
+// 		return user.a + user.b
+// 	}
+// }
+// //consolym user.a = 6   user.b = 4  user.add()  stachvum e 2 tveri + @
+
+
+
+
+// class myclas{
+// 	constructor(id,name,age,tel){//constructor
+// 		this.id=id;
+// 		this.name=name;
+// 		this.age=age;
+// 		this.tel=tel;
+// 	}
+
+// 	 namee() {//metod
+//     return 'I am  ' + this.name+this.id;
+//   }
+// }
+
+
+// student1 = new myclas(1,"Narek",21,77889944);
+// student2 = new myclas(2,"Vazgen",33,56465465)
+// student3 = new myclas(3,"Simon",21)
+
+// 	console.log(student1.namee())
+	
+
+
+/*
+class calculyator{
+	constructor(a, b){
+		this.a = a;
+		this.b = b;
+	}
+
+gumarel() {
+	
+return this.a + this.b
+
+	
+}
+hanel(){
+	return this.a - this.b
+
+}
+bazmapatkel(){
+    return this.a * this.b
+}
+bajanel(){
+ 	return this.a / this.b
+}
+
+
+}
+a=prompt('grel tiv')
+b=prompt('grel tiv')
+values = new calculyator(+a,+b)
+console.log	("gumarman depqum = "+values.gumarel())
+console.log	("hanman depqum = "+values.hanel())
+console.log	("bazmapatkman depqum = "+values.bazmapatkel())
+console.log	("bajanman depqum = "+values.bajanel())
+
+
+*/
+
+
+
+
+/*function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}*/
+
+
+
+// console.log(getRandomInt(3));
+// console.log(getRandomInt(3));
+// // expected output: 0
+// console.log(Math.rando
+
+
+
+// function math (x){
+// 	if (+x&&x!=Infinity) {
+// 		return true;
+// 	}
+// 	else return false;
+// }
+// console.log(math())
+
+
+
+
+
+
+
+
+
+
+
+// function random(min, max) {
+//   return min + Math.random() * (max);
+// }
+
+// for (var i = 0; i < 100; i++) {
+// 	console.log(random(0,12))//(-1)
+// }
+
+
+
+/////////////////////////////////////////////     TNAYIN ///////////////////////////////
+
+
+
+
+
+
+
+
+
+
+// const arr = ['Hello Wold', 'Welcome', 2020, 
+// let obj = {
+//  name: 'Noro',
+//  surname : 'Mikaelyan',
+//  center : 'Erevan'
+// },
+// function result(a, b) {
+// 	return a + b
+// }
+// ]
+
+
+// const copy=[]
+
+
+
+
+// for (i = arr.length-1; i > 0; i --) {   
+// 	copy[arr.length-i]=arr[i]
+// }
+		
+		
+
+
+
+
+// for (let key of arr) {
+// copy[key]=key
+
+// }
+
+
+// // const copy = [...arr]
+
+// const arr = ['Hello', 'World', 'Welcome', 'Barev']
+// const  arr1 =['noro']
+
+// arr.splice(0, 1)//start 0 ; 1 element
+// arr.splice(0, 1 ,'number') // start 0; deleyt 1; push 'number';
+// arr.splice(arr.length -1, 0, 'Object') // naxaverjich avelacnum e ' object'
+// arr.splice(-1, 1)// deleyt verjin@
+// const newArr = arr.splice(1, 5)//arajinich deleyt newArr i mej copy mnachaj elementner@
+// const mergeArr = arr.concat(arr1) //mergeArr = arr + arr1 ; 2arayneri gumar@ 
+// const margeArr = arr.concat(arr1,'strig', 'number', ()=>{}) //arayneri  + (+) 'sring', 'number'
+// const newArr = arr.slice(0, 2)  //sarqum e nor arr ev 0 ic 2 elemntner e tpum
+
+
+// const obj = {
+// 	name: 'stive',
+// 	surname: 'jobs',
+// }
+
+// for(let key in obj){
+// 	console.log(key'key'),
+// 	console.log(obj[key])
+//  }////////////////////////////	console.log(key, "key"), um tpuma name & surname////console.log(obj[key]) tpuma obji meji valuner@ stive jobs
+
+  // let arr = ['Hello', 'World', 'Welcome', 'Barev']
+  // alert((arr))
+// // for(let key of arr){
+// // console.log(key, 'key')
+
+// } // tpum e  arr i meji elementner@
+// arr.reverse()//tarsa tpum elementner@
+//  const forArray = (item, i, arr) => {
+//  	arr[i] = item + "URA";
+//  	console.log(arr[i])
+//  }
+
+// function forEachCopy(thisArr) {
+// 	for(let i = 0; i < thisArr.length; i++) {
+// 		forArray(thisArr[i],i,thisArr)
+// 	}
+// }
+
+// forEachCopy( arr);
+
+
+
+
+
+
+// const arrMap = arr.map((item, i, arr)  => {
+// 	return item *= 10
+// } )
+
+// let matrix = [
+// [1, 2, 3],
+// [4, 5, 6],
+// [7, 8, 9]
+// ];
+// alert( matrix[2][2] ); // 5, центральный элемент
+
+
+
+
+// let arr1 = ["f",'a','das','q','noro'];
+// alert( arr1.indexOf('norop') ); 
+
+
+
+
+
+// let arr = [ -2, -26, 0, 1.2, 1, 2, 15 , 'rafssssss' , 'noro'
+
+// ];
+// // метод сортирует содержимое arr
+// arr.sort();
+// alert( arr ); // 1, 15, 2
+
+
+
+// const arr = [12, 43, 23, -5, 122, 32, 76]
+
+
+// function sortFunction (a, b) {
+// 	if (a > b) return 1;
+// 	if (a == b) return 0;
+// 	if (a < b) return -1;
+// }
+
+
+// console.log( arr.sort(sortFunction) );
+
+
+// const auto = ['bmw']
+
+// const bands = [];
+// for ( let key of auto ) {
+// 	brads.unshift(key);
+// 	alert(key);
+// };
+
+
+
+// const range = {
+// 	from: 0,
+// 	to: 10,
+// 	[Symbol.iterator] () {
+// 		this.curnent = this.from;
+// 		return this;
+// 	},
+//      next() {
+//      	if (this.curnent <= this.to) {
+//      		return { done : false, value : this.curnent ++};
+
+//      	} else {
+//      		return { done : true };
+//      	}
+//      }
+// }
+
+
+// for (let key of range) {
+// 	console.log( key );
+// }
+
+
+
+
+// map.set( 'name', 'stive' );
+
+
+
+
+// var numbers = [3, 4, 9];
+// var roots = numbers.map(Math.pow);
+// // теперь roots равен [1, 2, 3], а numbers всё ещё равен [1, 4, 9]
+// console.log(numbers);
+// console.log(roots)
+
+
+
+
+// function checkPalindrome(inputString) {
+// let x = 'string';
+// if(x.length % 2 !==0){
+// return true
+// } else (false)
+// }
+
+
+
+
+
+
+function add (name) {
+	console.log( `Hello ${name}`.toUpperCase());
+}
+ 
+add('Noro');
+
+
+
+
+
+function from (from, go, next, last) {
+	console.log(`
+		from: ${from}
+		go: ${go}
+		next: ${next}
+		last: ${last}
+		`)
+}
+
+
+
+from('Armenia', 'to travel', 'year', 'vick');
+
+ function add1 (x, y) {
+ 	console.log(` ${x} + ${y} = ${parseInt(x) + parseInt(y)}`)
+ }
+
+ add1('5', '7');
+ 
+
+
+ const name = 'Bill'
+ console.log(upperName `hello ${name}`);
+ function upperName ( iterals, values) {
+ 	return iterals[0].toUpperCase() + values.toUpperCase();
+ }
+
+
+
+function greet (greeting = 'noro', name = 'Barev') {
+	console.log(`${greeting} ${name}`)
+}
+greet()
+  //
