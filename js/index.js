@@ -1,51 +1,53 @@
 class Machine {
-    constructor(vat) {
-        this.vat = vat
-        
-}
+  constructor(vat) {
+    this.vat = vat;
+    this.ready = false;
 
-setwather(value) {
-    this.wather = value
-    
-}
+  }
 
-start() {
-if(this.water) {
-    console.log('start');
-    this.timerId = setTimeout(this.stop, 2000);
-    return;
-}
-}
+  setwather(value) {
+    this.water = value
 
-stop = () => {
-if(this.start) {
-    console.log('stop');
-    clearTimeout(this.timerId);
-    return;
-}
-}
+  }
+
+  start() {
+    if (this.water) {
+      console.log('start');
+      this.timerId = setTimeout(this.stop, 2000);
+      this.ready = true
+    }
+  }
+
+  stop = () => {
+    if (this.start) {
+      console.log('stop');
+      clearTimeout(this.timerId);
+      return;
+    }
+  }
 }
 const machine = new Machine(100)
 
 
 
 class Codemacine extends Machine {
-    constructor(vat) {
-        super(vat);
-    }
+  constructor(vat) {
+    super(vat);
+  }
 
 
-    sayHi() {
-        if(this.stop){
-            console.log('drink your coffe')
- 
-} 
+  sayHi() {
+  if(this.ready) {
+    console.log('drink your coffe')
+
+  }
 }
 }
 
 
 
-const codemachine = new Codemacine(100)
+const coffeemachine = new Codemacine(100)
+coffeemachine.setwather(298);
 
 
 
